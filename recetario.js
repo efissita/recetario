@@ -165,7 +165,65 @@
                 ],
                 tips: "El pozole sabe mejor al día siguiente, cuando todos los sabores se han integrado.",
                 culture: "El pozole era un platillo sagrado para los aztecas, preparado en ceremonias religiosas importantes."
-            }
+            },
+        { id: 7,
+                name: "Enchiladas Verdes",
+                category: "antojitos",
+                difficulty: "medio",
+                time: "30 min",
+                icon: "🌯",
+                ingredients: [
+                    "12 tortillas de maíz",
+                    "500g de pechuga de pollo deshebrada",
+                    "500g de tomates verdes",
+                    "2 chiles serranos",
+                    "1/4 de cebolla",
+                    "Cilantro fresco",
+                    "Crema y queso fresco"
+                ],
+                steps: [
+                    "Hierve los tomates y chiles hasta que estén suaves",
+                    "Licúa con cebolla y sal para hacer la salsa",
+                    "Rellena las tortillas con pollo y baña con la salsa",
+                    "Calienta en comal hasta que estén calientes",
+                    "Sirve con crema, queso y cilantro"
+                ],
+                tips: "Puedes agregar aguacate o frijoles refritos como acompañamiento.",
+                culture: "Las enchiladas son un platillo tradicional mexicano que ha evolucionado en cada región del país."
+            },
+        {
+    "id": 8,
+    "name": "Frijoles Charros",
+    "category": "plato_fuerte",
+    "difficulty": "facil",
+    "time": "1 hr 30 min",
+    "icon": "🍲",
+    "ingredients": [
+        "500g de frijoles bayos o negros",
+        "150g de tocino picado",
+        "100g de chorizo desmoronado",
+        "1/2 cebolla blanca picada",
+        "2 dientes de ajo picados",
+        "1 chile serrano o jalapeño picado (opcional)",
+        "2 jitomates maduros picados",
+        "Cilantro fresco picado al gusto",
+        "Sal al gusto",
+        "Agua"
+    ],
+    "steps": [
+        "Lava y remoja los frijoles en agua fría por al menos 4 horas (o desde la noche anterior).",
+        "Escurre los frijoles remojados y cuécelos en una olla con suficiente agua limpia hasta que estén suaves. Esto puede tardar de 1 a 1.5 horas en olla normal, o 30-40 minutos en olla de presión. Salpimienta al final.",
+        "Mientras los frijoles se cuecen, en un sartén grande, fríe el tocino hasta que esté dorado y crujiente. Retira el tocino y reserva.",
+        "En la misma grasa del tocino, añade el chorizo y cocina hasta que esté bien dorado y suelto. Retira y reserva junto al tocino.",
+        "En la misma sartén, agrega la cebolla y el ajo picados y sofríe hasta que estén transparentes.",
+        "Incorpora el chile serrano (si usas) y los jitomates picados. Cocina hasta que el jitomate se suavice y suelte su jugo.",
+        "Cuando los frijoles estén cocidos, agrega el sofrito de cebolla, ajo, chile y jitomate a la olla de los frijoles. Incorpora también el tocino y el chorizo reservados.",
+        "Deja que todo hierva a fuego lento por unos 15-20 minutos para que los sabores se integren. Rectifica la sal si es necesario.",
+        "Sirve calientes, espolvorea con cilantro fresco picado y disfruta."
+    ],
+    "tips": "Para un toque extra, puedes añadir trozos de salchicha, chicharrón o jamón. Acompaña con tortillas de maíz calientes y aguacate.",
+    "culture": "Los frijoles charros son un platillo típico de la gastronomía mexicana, especialmente popular en el norte del país. Se caracterizan por su caldo especiado y la combinación de carnes que le dan un sabor ahumado y reconfortante, ideal para acompañar carnes asadas."
+}
         ];
 
         let currentCategory = 'all';
